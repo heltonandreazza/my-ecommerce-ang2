@@ -1,10 +1,10 @@
-import { Test3Page } from './app.po';
+import { myEcommerceAng2Page } from './app.po';
 
-describe('test3 App', () => {
-  let page: Test3Page;
+describe('my-ecommerce-ang2 App', () => {
+  let page: myEcommerceAng2Page;
 
   beforeEach(() => {
-    page = new Test3Page();
+    page = new myEcommerceAng2Page();
   });
 
   it('should display message saying app works', () => {

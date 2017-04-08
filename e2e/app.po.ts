@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class Test3Page {
+export class myEcommerceAng2Page {
   navigateTo() {
     return browser.get('/');
   }
