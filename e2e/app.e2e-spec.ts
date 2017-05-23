@@ -1,10 +1,10 @@
-import { myEcommerceAng2Page } from './app.po';
+import { NewCliPage } from './app.po';
 
-describe('my-ecommerce-ang2 App', () => {
-  let page: myEcommerceAng2Page;
+describe('new-cli App', () => {
+  let page: NewCliPage;
 
   beforeEach(() => {
-    page = new myEcommerceAng2Page();
+    page = new NewCliPage();
   });
 
   it('should display message saying app works', () => {

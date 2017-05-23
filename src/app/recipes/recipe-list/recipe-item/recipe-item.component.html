@@ -1,9 +1,8 @@
 <a
   style="cursor: pointer;"
-  class="list-group-item clearfix"
-  [routerLink]="['/recipes', index]"
-  routerLinkActive="active">
-  <!--(click)="onSelected()"> not used anymore, because of the child routes-->
+  [routerLink]="[index]"
+  routerLinkActive="active"
+  class="list-group-item clearfix">
   <div class="pull-left">
     <h4 class="list-group-item-heading">{{ recipe.name }}</h4>
     <p class="list-group-item-text">{{ recipe.description }}</p>
